@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/draw"
+        android:id="@+id/drawingCircle"
+        android:onClick="switchToDrawMode">
+        <menu>
+            <group>
+            <item android:title="@string/black"
+                android:id="@+id/black"
+                android:onClick="setColor"/>
+            <item android:title="@string/red"
+                android:id="@+id/red"
+                android:onClick="setColor"/>
+            <item android:title="@string/green"
+                android:id="@+id/green"
+                android:onClick="setColor"/>
+            <item android:title="@string/blue"
+                android:id="@+id/blue"
+                android:onClick="setColor"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/delete"
+        android:id="@+id/deleteCircle"
+        android:onClick="switchToDeleteMode"/>
+    <item android:title="@string/move"
+        android:id="@+id/movingCircle"
+        android:onClick="switchToMoveMode"/>
+</menu>

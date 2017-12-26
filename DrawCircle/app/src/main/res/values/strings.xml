@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CircleApp</string>
+    <string name="draw">Draw</string>
+    <string name="move">Move</string>
+    <string name="delete">Delete</string>
+    <string name="black">Black</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+</resources>
